@@ -1,5 +1,6 @@
 package es.upm.miw.apaw.ecp1.borja.guzman;
 
+import java.security.Signature;
 import java.util.Calendar;
 
 public class Student {
@@ -8,6 +9,7 @@ public class Student {
 	private String dni;
 	private String name;
 	private Calendar birthdate;
+	private Signature signature;
 
 	public int getId() {
 		return id;
@@ -23,6 +25,10 @@ public class Student {
 
 	public Calendar getBirthDate() {
 		return birthdate;
+	}
+
+	public Signature getSignature() {
+		return signature;
 	}
 
 	public void setId(int id) {
@@ -43,6 +49,11 @@ public class Student {
 	public void setBirthDate(Calendar birthdate) {
 		assert birthdate != null;
 		this.birthdate = birthdate;
+	}
+
+	public void setSignature(Signature signature) {
+		assert signature!=null;
+		this.signature = signature;
 	}
 
 }
