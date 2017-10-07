@@ -1,4 +1,4 @@
-package es.upm.miw.apaw.ecp1.borja.guzman;
+package es.upm.miw.apaw.ecp1.borja.guzman.singleton;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertSame;
@@ -7,6 +7,8 @@ import java.util.Calendar;
 
 import org.junit.Test;
 
+import es.upm.miw.apaw.ecp1.borja.guzman.Student;
+import es.upm.miw.apaw.ecp1.borja.guzman.Subject;
 import es.upm.miw.apaw.ecp1.borja.guzman.singleton.StudentsFactory;
 
 

@@ -1,4 +1,4 @@
-package es.upm.miw.apaw.ecp1.borja.guzman;
+package es.upm.miw.apaw.ecp1.borja.guzman.builder;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,6 +6,8 @@ import java.util.Calendar;
 
 import org.junit.Test;
 
+import es.upm.miw.apaw.ecp1.borja.guzman.Student;
+import es.upm.miw.apaw.ecp1.borja.guzman.Subject;
 import es.upm.miw.apaw.ecp1.borja.guzman.builder.StudentBuilder;
 import es.upm.miw.apaw.ecp1.borja.guzman.builder.SubjectBuilder;
 
