@@ -1,6 +1,9 @@
-package es.upm.miw.apaw.ecp1.borja.guzman;
+package es.upm.miw.apaw.ecp1.borja.guzman.builder;
 
 import java.util.Calendar;
+
+import es.upm.miw.apaw.ecp1.borja.guzman.Student;
+import es.upm.miw.apaw.ecp1.borja.guzman.Subject;
 
 public class StudentBuilder {
 

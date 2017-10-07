@@ -6,6 +6,9 @@ import java.util.Calendar;
 
 import org.junit.Test;
 
+import es.upm.miw.apaw.ecp1.borja.guzman.builder.StudentBuilder;
+import es.upm.miw.apaw.ecp1.borja.guzman.builder.SubjectBuilder;
+
 public class StudentBuilderTest {
 
 	@Test

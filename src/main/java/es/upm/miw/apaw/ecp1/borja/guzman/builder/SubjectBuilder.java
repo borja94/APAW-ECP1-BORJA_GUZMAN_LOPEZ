@@ -1,4 +1,6 @@
-package es.upm.miw.apaw.ecp1.borja.guzman;
+package es.upm.miw.apaw.ecp1.borja.guzman.builder;
+
+import es.upm.miw.apaw.ecp1.borja.guzman.Subject;
 
 public class SubjectBuilder {
 

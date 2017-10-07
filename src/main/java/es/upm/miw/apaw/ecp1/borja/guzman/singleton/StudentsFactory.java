@@ -1,7 +1,9 @@
-package es.upm.miw.apaw.ecp1.borja.guzman;
+package es.upm.miw.apaw.ecp1.borja.guzman.singleton;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import es.upm.miw.apaw.ecp1.borja.guzman.Student;
 
 public class StudentsFactory {
 
