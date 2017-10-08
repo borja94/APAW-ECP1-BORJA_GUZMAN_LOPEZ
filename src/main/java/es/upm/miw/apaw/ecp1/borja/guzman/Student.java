@@ -10,8 +10,6 @@ public class Student {
 	private Calendar birthdate;
 	private Subject subject;
 
-	public Student() {
-	}
 
 	public Student(int id ) {
 		assert id>0;
